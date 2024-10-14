@@ -1,0 +1,150 @@
+
+
+
+
+
+body {
+background-color: #a3b18a;
+font-family: Avantgarde;
+}
+
+h4 {
+font-size: 30px;
+padding-bottom:0px;
+}
+
+h5 {
+font-size: 60px;
+}
+
+p {
+font-size: 30px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: #3a5a40;
+  color: #dad7cd;
+}
+
+.question {
+  width:80%;
+  background-color: #588157;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:20px;
+  padding-top:1px;
+  padding-bottom:1px;
+  border-radius: 10px;
+
+}
+
+.container {
+font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-left: 130px;
+
+}
+
+.title {
+    text-align:center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #3a5a40 ;
+  border-radius: 10px;
+  padding: 20px;
+  color: #dad7cd;
+
+}
+
+.radio-inline label {
+        cursor: pointer;
+        margin-left: 5px;
+    }
+.answer-box {
+    border:2px solid;
+    width: 40%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: #dad7cd;
+
+}
+
+
+#header {
+border: 2px solid black;
+padding: 5px;
+height: 563px;
+background: beige;
+background-image: url("minecraft.jpg");
+color: white;
+width: 100%;
+margin: auto;
+position: relative;
+max-width: 1000px;
+background-size: 100% 100%;
+}
+
+#row {
+    display: flex;
+}
+
+#section {
+position: relative;
+width: 80%;
+background-color: white;
+}
+
+#footer {
+position: relative;
+width: 100%;
+height: 30px;
+background-color: #cccccc;
+}
+
+.small {
+    margin-top:0;
+    font-size: 10px;
+    font-style: italic;
+}
+
+
+/*MEDIA QUERY*/
+/* For width smaller than 950px: */
+@media screen and (max-width: 950px){
+p {
+    font-size: 25px;
+}
+h5{
+    font-size: 50px;
+}
+h4 {
+    font-size: 30px;
+}
+
+}
+
+
+/* For width smaller than 750px: */
+@media screen and (max-width: 750px){
+#header {
+  background-image: url('minecraft.jpg');
+  display: none;
+p {
+    font-size: 20px;
+}
+h5{
+    font-size: 50px;
+}
+h4 {
+    font-size: 20px;
+}
+
+}
+
